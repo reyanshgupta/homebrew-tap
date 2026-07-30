@@ -1,7 +1,6 @@
 class DittoCli < Formula
   desc "Switch between multiple Claude Code, Codex, opencode, and OMP accounts"
   homepage "https://github.com/reyanshgupta/ditto-cli"
-  version "0.3.1"
   license "MIT"
 
   # The release workflow already builds and checksums a binary per target, so
