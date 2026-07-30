@@ -6,10 +6,11 @@ Formulae for [Ditto CLI](https://github.com/reyanshgupta/ditto-cli), a terminal 
 brew install reyanshgupta/tap/ditto-cli
 ```
 
-Or tap first and install by name:
+Name the tap in full, as above. Homebrew 6 loads a formula from a third-party tap only once you have trusted it, and installing by the full name trusts this one formula as it goes. Tapping first and installing by bare name is refused until you say so separately:
 
 ```bash
 brew tap reyanshgupta/tap
+brew trust --formula reyanshgupta/tap/ditto-cli
 brew install ditto-cli
 ```
 
