@@ -8,19 +8,19 @@ class DittoCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.3/ditto-cli-v0.3.3-aarch64-apple-darwin.tar.gz"
-      sha256 "e0f26fbd932697c601d0e09e9237d475e46f28ae23132f03dc66f7d58dc8cd11"
+      sha256 "61a678b2b46ba6d137842e0001ec369ba80333dfcbeab5d3306d1e9270478a41"
     end
 
     on_intel do
       url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.3/ditto-cli-v0.3.3-x86_64-apple-darwin.tar.gz"
-      sha256 "5758d580b0333934da63b35ae0857a08790b599e5203ef36b40d24714c9e418e"
+      sha256 "369a4276a370d7bcf2f8f6084a7bebe079a2b13ee729ce82f442ba1f4a74ded6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.3/ditto-cli-v0.3.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e14bd5a0a9cc94b35be8665ec20d314e02d68d541d4f8a20ef0911b252e40f3d"
+      sha256 "1af19a7061f991507294ec7753e6146a6cab9724d1469072f6b4f2d36a4f7345"
     end
   end
 
