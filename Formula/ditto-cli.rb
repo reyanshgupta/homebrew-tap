@@ -1,5 +1,5 @@
 class DittoCli < Formula
-  desc "Switch between multiple Claude Code, Codex, opencode, and OMP accounts"
+  desc "Isolate Claude Code, Codex, opencode, OMP, and Prime Agent accounts"
   homepage "https://github.com/reyanshgupta/ditto-cli"
   license "MIT"
 
@@ -7,20 +7,20 @@ class DittoCli < Formula
   # the formula installs those rather than compiling Rust on the user's machine.
   on_macos do
     on_arm do
-      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.3/ditto-cli-v0.3.3-aarch64-apple-darwin.tar.gz"
-      sha256 "933a86d97370cb0f6c5f1339c9a723ea8cf0dc9f6dd9f1c5cbf3f1a0d175ecc8"
+      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.4/ditto-cli-v0.3.4-aarch64-apple-darwin.tar.gz"
+      sha256 "c7908ece446210777371f925d8d552ade51ce88df313df3ba7e1cdde04152db5"
     end
 
     on_intel do
-      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.3/ditto-cli-v0.3.3-x86_64-apple-darwin.tar.gz"
-      sha256 "de46a6e0385136a01097d004021eb9b3605bf8a496d9d18d2c9c6eaf4f10945b"
+      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.4/ditto-cli-v0.3.4-x86_64-apple-darwin.tar.gz"
+      sha256 "e164240d19399a522215509867c0b62f942ded7df3a68641776fbe1c08809472"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.3/ditto-cli-v0.3.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dcf075792bd769fca8247e5838a2f320d0cb1453b41f71f75427674cc6095a0a"
+      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.3.4/ditto-cli-v0.3.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2a9974ddd6ad8b55be77b6e122d0b30f61373e3762f6766d0200179d610ef5bb"
     end
   end
 
