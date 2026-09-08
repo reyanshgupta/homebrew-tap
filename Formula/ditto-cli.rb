@@ -7,20 +7,20 @@ class DittoCli < Formula
   # the formula installs those rather than compiling Rust on the user's machine.
   on_macos do
     on_arm do
-      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.4.3/ditto-cli-v0.4.3-aarch64-apple-darwin.tar.gz"
-      sha256 "f46473e1fe17c9184b5f2a73a7582f473e4b6119ae4717ca35a26a0a308e588a"
+      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.4.4/ditto-cli-v0.4.4-aarch64-apple-darwin.tar.gz"
+      sha256 "efaf61d3cb0b8cb6db8da4d1afbdacf9784b6deb74912ac749c562947636a003"
     end
 
     on_intel do
-      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.4.3/ditto-cli-v0.4.3-x86_64-apple-darwin.tar.gz"
-      sha256 "31cea2ff4a800519aeb8c679da174007d6ed86f5964c16b2683dfce7f5fa611d"
+      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.4.4/ditto-cli-v0.4.4-x86_64-apple-darwin.tar.gz"
+      sha256 "3b64b8d01d5419bab4390705378bf5cd69eb447f45dd9d2dfad725bce3e5b96f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.4.3/ditto-cli-v0.4.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e172119148798132a620ce4d4a0ccc561f0332060720a212fd70483d198aa33e"
+      url "https://github.com/reyanshgupta/ditto-cli/releases/download/v0.4.4/ditto-cli-v0.4.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ce3cf8bedf45be7a8b9eb115f2ecb57e38da272488ba786b8a5c68e53062822a"
     end
   end
 
